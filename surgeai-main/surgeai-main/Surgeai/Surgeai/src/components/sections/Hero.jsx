@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="bg-hero min-h-screen flex items-center justify-center pt-24">
+    <section className="bg-hero min-h-screen flex items-center justify-center ">
       <div className="text-center max-w-4xl mx-auto px-6 relative z-10">
         <span className="inline-block bg-gradient-to-r from-cyan-500 to-magenta-500 text-white text-sm px-5 py-2 rounded-full invitation">
           By Invitation Only
@@ -9,7 +9,7 @@ const Hero = () => {
           Turn Every Song Into<br />Millions of Posts
         </h1>
         <p className="text-lg md:text-xl text-gray-300 mb-10 fade-in-up fade-in-delay-2">
-          Our proprietary AI-driven A2A botting network dynamically split-tests, generates, 현대적인 and mass distributes optimized content to maximize real fan acquisition and streaming growth on Spotify.
+          Our proprietary AI-driven A2A botting network dynamically split-tests, generates,and mass distributes optimized content to maximize real fan acquisition and streaming growth on Spotify.
         </p>
         <div className="flex justify-center space-x-6 fade-in-up fade-in-delay-3">
           <button className="bg-gradient-to-r from-cyan-500 to-magenta-500 hover:from-cyan-600 hover:to-magenta-600 text-white px-8 py-4 rounded-lg text-lg font-semibold request">

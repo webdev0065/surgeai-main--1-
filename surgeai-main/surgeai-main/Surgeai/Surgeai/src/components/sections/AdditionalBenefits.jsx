@@ -1,7 +1,7 @@
 const AdditionalBenefits = () => {
   return (
-    <section className="bg-ai-transform py-24 text-center relative overflow-hidden">
-      <div className="particle-bg">
+    <section className="bg-ai-transform py-24 text-center relative overflow-hidden additional">
+      <div className="particle-bg particle-bg2">
         <div className="particle" style={{ width: '6px', height: '6px', top: '10%', left: '15%', animationDelay: '0s' }}></div>
         <div className="particle" style={{ width: '4px', height: '4px', top: '20%', left: '30%', animationDelay: '2s' }}></div>
         <div className="particle" style={{ width: '5px', height: '5px', top: '40%', left: '50%', animationDelay: '4s' }}></div>

@@ -3,7 +3,7 @@ import React, { forwardRef } from 'react';
 const Navbar = forwardRef((props, ref) => {
   return (
     <nav ref={ref} className="capsule-header">
-      <div className="flex items-center justify-center capsule-header2">
+      <div className="flex items-center capsule-header2">
         <div className="flex items-center space-x-4 fade-in-up">
           <svg
             className=""
