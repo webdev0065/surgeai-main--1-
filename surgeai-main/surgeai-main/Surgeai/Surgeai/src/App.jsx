@@ -59,7 +59,7 @@ function App() {
                 <Footer />
               </>
             } />
-              <Route path="/" element={<Home />} />
+    
         <Route path="/case-studies" element={<CaseStudies />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/faq" element={<FAQ />} />
