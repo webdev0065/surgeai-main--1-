@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-
+import { Link } from 'react-router-dom';
 const Navbar = forwardRef((props, ref) => {
   return (
     <nav ref={ref} className="capsule-header">
@@ -21,20 +21,23 @@ const Navbar = forwardRef((props, ref) => {
           </svg>
           <span className="surge-text">Surge</span>
         </div>
-        <div className="ml-12 flex space-x-8 items-center">
-          <a href="/" className='nav-links'>
-            Home
-          </a>
-          <a href="/case-studies" className='nav-linkss'>
-            Case Studies
-          </a>
-          <a href="/pricing" className='nav-links1'>
-            Pricing
-          </a>
-          <a href="/faq"className='nav-links2'>
-            FAQ
-          </a>
-        </div>
+       
+
+
+<div className="ml-12 flex space-x-8 items-center">
+  <Link to="/" className="nav-links">
+    Home
+  </Link>
+  <Link to="/case-studies" className="nav-linkss">
+    Case Studies
+  </Link>
+  <Link to="/pricing" className="nav-links1">
+    Pricing
+  </Link>
+  <Link to="/faq" className="nav-links2">
+    FAQ
+  </Link>
+</div>
           <div>
           <button
             className="demo-btn"
