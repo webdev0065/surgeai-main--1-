@@ -59,9 +59,10 @@ function App() {
                 <Footer />
               </>
             } />
-            <Route path="/pricing" element={<Pricing />} />
-            <Route path="/faq" element={<FAQ />} />
-            <Route path="/case-studies" element={<CaseStudies />} />
+              <Route path="/" element={<Home />} />
+        <Route path="/case-studies" element={<CaseStudies />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/faq" element={<FAQ />} />
           </Routes>
         </main>
       </div>
